@@ -1,0 +1,5 @@
+Simple way of transforming an Interface into endpoints: Similar to nhibernate.
+- IMyInterface would construct controllers etc.
+
+Automatically include top level method call into child method names without explicitly having a method parameter for it.
+eg. DoSomeWorkWithFish() -> SendMethod -> log.Info("{method.Name}")
